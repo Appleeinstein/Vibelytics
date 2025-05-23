@@ -1,0 +1,119 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Convert to dark theme colors */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 5.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 264 80% 60%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 340 50% 30%;
+    --secondary-foreground: 340 100% 94%; 
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 200 80% 30%;
+    --accent-foreground: 200 100% 91%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 264 80% 60%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, hsl(250, 15%, 7%), hsl(232, 15%, 12%), hsl(220, 15%, 10%));
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    @apply bg-vibepurple/30;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(155, 135, 245, 0.5);
+  }
+  
+  .bubble {
+    @apply rounded-3xl px-4 py-2 inline-block max-w-[80%] relative;
+  }
+  
+  .bubble-left {
+    @apply bubble bg-muted text-muted-foreground mr-auto rounded-bl-sm;
+  }
+  
+  .bubble-right {
+    @apply bubble bg-primary text-primary-foreground ml-auto rounded-br-sm;
+  }
+  
+  .bg-gradient-fun {
+    @apply bg-gradient-to-br from-vibepurple via-vibepink to-vivepeach;
+  }
+
+  /* Add button glow effect utilities */
+  .button-glow {
+    box-shadow: 0 0 15px 2px rgba(155, 135, 245, 0.7);
+    transition: all 0.3s ease;
+  }
+  
+  .button-no-glow {
+    box-shadow: 0 0 0px 0px rgba(155, 135, 245, 0);
+    transition: all 0.3s ease;
+  }
+  
+  /* New dark gradient styling */
+  .bg-dark-gradient {
+    @apply bg-gradient-to-br from-slate-900 via-violet-900/20 to-slate-900;
+  }
+  
+  .button-dark-gradient {
+    @apply bg-gradient-to-r from-indigo-900 via-violet-800 to-purple-900 hover:from-indigo-800 hover:via-violet-700 hover:to-purple-800;
+  }
+  
+  .card-fancy {
+    @apply border border-white/10 bg-black/40 backdrop-blur-md shadow-lg;
+  }
+  
+  .input-fancy {
+    @apply bg-black/30 border-violet-900/50 focus:border-violet-500/50 focus:ring-violet-500/20;
+  }
+  
+  .tab-fancy {
+    @apply data-[state=active]:bg-violet-900/30 data-[state=active]:text-white data-[state=active]:shadow-md hover:bg-black/30;
+  }
+}
