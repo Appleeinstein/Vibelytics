@@ -83,6 +83,6 @@ But still — don't paste *sensitive* info unless you trust your device. 🙏
 
 ## 🧡 Support
 
-If you love this project, star it ⭐ on GitHub, share it with your squad, or drop a meme in our future Discord 😌
+If you love this project, star it ⭐ on GitHub and share it with your squad😌
 
 Stay vibey 🌀
