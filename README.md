@@ -63,13 +63,6 @@ This project uses the following stack:
 
 > 🚀 Try it live: [vibelytics.app](<Domain Placeholder>)
 
----
-
-## 🎨 Branding & Design
-
-- 🟣 **Favicon** and branding icon with a stylized **“V”** in the same purple gradient as our UI  
-- 💅 Consistent minimalist design with clean fonts, soft shadows, and animated gradients  
-- 👁 UX-first – optimized for fast paste > click > result flow
 
 ## ⚠️ Disclaimer
 
@@ -77,12 +70,11 @@ This is a fun experimental tool made for entertainment and educational use.
 It’s *not* a substitute for real communication. Don't take your vibe check *too* seriously 😅
 
 Your data stays fully on your device. We don’t track, store, or upload anything.  
-But still — don't paste *sensitive* info unless you trust your device. 🙏
 
 ---
 
 ## 🧡 Support
 
-If you love this project, star it ⭐ on GitHub, share it with your squad, or drop a meme in our future Discord 😌
+If you love this project, star it ⭐ on GitHub and share it with your squad 😌
 
 Stay vibey 🌀
