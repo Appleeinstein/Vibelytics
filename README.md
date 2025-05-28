@@ -1,4 +1,4 @@
-# 💬 Vibelytics
+# 💬 [Vibelytics](https://vibelytics.netlify.app/)
 
 A playful AI-powered chat analyzer that gives you a *vibe check* on any conversation.  
 Built with ❤️ for overthinkers, curious texters, and vibe detectives.
@@ -61,7 +61,7 @@ This project uses the following stack:
 
 ## 🌐 Live Demo
 
-> 🚀 Try it live: [vibelytics.app](<Domain Placeholder>)
+> 🚀 Try it live: [vibelytics.app](https://vibelytics.netlify.app/)
 
 
 ## ⚠️ Disclaimer
